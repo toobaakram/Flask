@@ -1,0 +1,31 @@
+{% extends "template.html" %}
+{% block content %}
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('{{url_for('static',filename='img/about-bg.jpg')}}')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Us</h1>
+            <span class="subheading">To Educate, Advocate, and Promote Halal and Healthy Products</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>Halait was built to empower individuals. Our vision at Halit is to make the halal and healthy food market more transparent. 
+          Today we provide the most informative halal and healthy food information in the industry to millions
+           of consumers. We want to make this information available to as many people as possible.</p>
+
+
+      </div>
+    </div>
+  </div>
+  {% endblock %}
+ 
